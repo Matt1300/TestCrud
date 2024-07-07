@@ -1,0 +1,45 @@
+# Archivos y carpetas específicos de Visual Studio
+.vs/
+*.suo
+*.user
+*.bak
+*.vsconfig
+*.vspx
+*.vspx.json
+
+# Carpeta de caché de análisis de código
+.vs/TestResults/
+
+# Archivos de configuración específicos de entorno
+appsettings.Local.json
+
+# Carpeta de salida de compilación
+/bin/
+/obj/
+
+# Archivos generados por Visual Studio 2022
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.log
+*.npm-debug.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Archivos de respaldo de Visual Studio Code
+.vscode/
+
+# Archivos de respaldo de JetBrains Rider
+.idea/
+
+# Paquetes y dependencias de NuGet
+packages/
+*.nupkg
+*.paket-files/
+
+# Archivos de configuración de entorno de desarrollo específico
+appsettings.Development.json
